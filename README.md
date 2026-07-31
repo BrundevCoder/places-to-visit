@@ -1,7 +1,7 @@
 ![Banner](image.png)
 
 # Places To Visit
-On **Places Ti Visit** you can fins some places to visit in countries like Portugal, USA, Brazil (and possibly more soon!)
+On **Places To Visit** you can find some places to visit in countries like Portugal, USA, Brazil (and possibly more soon!)
 
 You can try it [Here](https://brundevcoder.github.io/places-to-visit/)
 
