@@ -8,7 +8,7 @@ function addPlaces(country) {
 
         if (placesData[i]["country"] === country) {
 
-            let countryData = placesData[i]
+            let countryData = placesData[i];
             placesGridContainer.innerHTML = "";
 
             for (let j = 0; j < countryData["placesArray"].length; j++) {
@@ -19,7 +19,7 @@ function addPlaces(country) {
                     <img src="${countryData["placesArray"][j].placeImgUrl}" alt="" class="place-img">
                     <p class="place-name">${countryData["placesArray"][j].placeName}</p>
                     <p class="place-description">${countryData["placesArray"][j].placeDescription}</p>
-                </div>`
+                </div>`;
 
                 placesGridContainer.appendChild(placeDataDiv);
             }
@@ -34,3 +34,5 @@ function getChange() {
 }
 
 CountrySelect.addEventListener("change", getChange);
+
+getChange();

@@ -51,7 +51,7 @@ main {
     padding: 1.05rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px 15px;
+    gap: 50px 35px;
 }
 
 .place-card {
@@ -60,6 +60,10 @@ main {
     align-items: center;
     flex-direction: column;
     gap: 10px;
+    animation: fadeIn;
+    animation-timeline: view();
+    animation-range-start: 50px;
+    animation-range-end: 500px;
 }
 
 .place-img {
@@ -83,4 +87,15 @@ main {
     font-family: "Edu VIC WA NT Hand", sans-serif;
     font-weight: 500;
     font-size: .85rem;
+}
+
+@keyframes fadeIn {
+    from {
+        transform: translateY(40px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
