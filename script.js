@@ -16,7 +16,7 @@ function addPlaces(country) {
                 let placeDataDiv = document.createElement("div");
                 placeDataDiv.innerHTML = `
                 <div class="place-card">
-                    <img src="${countryData["placesArray"][j].placeImgUrl}" alt="" class="place-img">
+                    <img loading="lazy" src="${countryData["placesArray"][j].placeImgUrl}" alt="" class="place-img">
                     <p class="place-name">${countryData["placesArray"][j].placeName}</p>
                     <p class="place-description">${countryData["placesArray"][j].placeDescription}</p>
                 </div>`;
