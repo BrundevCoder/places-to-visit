@@ -19,6 +19,11 @@ const placesData = [
             "placeName": "Natur Water Park",
             "placeDescription": "A water park located in Vila Real, one of the closest to Porto! With some really cool and extreme attraction too!",
             "placeImgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC6jraIL3ZCyNRGmiBwHTzPYUOV9CGWIBzq_hvdigzDnq77a4beoznFbo&s=10"
+        },
+        {
+            "placeName": "Amarante Water Park",
+            "placeDescription": "The Amarante Water Park is the largest in the Eberian Peninsula! It's full of attractions, and probably the most extreme in Portugal!",
+            "placeImgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa-buHph51uWZSHva3Z8FhLzuxML-YmaLOoxm_Ef-DSwzB59v3FrQIl59F&s=10"
         }
     ]},
     {"country": "usa", "placesArray": [
