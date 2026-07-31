@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bartle&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ebe6e6;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 25vh;
+}
+
+.title {
+    text-align: center;
+    font-size: 2.45rem;
+    font-family: "BBH Bartle", sans-serif;
+}
