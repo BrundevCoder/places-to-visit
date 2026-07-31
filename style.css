@@ -89,6 +89,30 @@ main {
     font-size: .85rem;
 }
 
+@media (max-width: 610px) {
+    .places-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
+    .title {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 280px) {
+    .title {
+        font-size: 1.35rem;
+    }
+}
+
+@media (max-width: 360px) {
+    .places-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
 @keyframes fadeIn {
     from {
         transform: translateY(40px);
