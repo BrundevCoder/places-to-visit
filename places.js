@@ -42,6 +42,23 @@ const placesData = [
             "placeDescription": "Who doesn't love Disney, right? Without a doubt, it's an amazing place to spend a few days with family/friends, full of magic!",
             "placeImgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRG4O1i2_K6iumgZM8wedcAN6v79JBo2_NPQGOHa11lg&s=10"
         }
+    ]},
+    {"country": "brazil", "placesArray": [
+        {
+            "placeName": "Cristo Redentor",
+            "placeDescription": "One of the most famous statues of Jesus Christ! Known for being one of the largest in existence!",
+            "placeImgUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm6oBSjZtsQeqazGzoK_peFyG_xJGBXV3BZoqtPsgei2vxJ7qetrFTt7IRCBLI7EHM8nbfEvH1e9intut8x5G00-Ord02Y2-hsAp3GqPMhFQDJbh4KjiUu7Bi71mk2u_GVXfj8E=s680-w680-h510-rw"
+        },
+        {
+            "placeName": "Beach Park",
+            "placeDescription": "A well-known water park in Brazil, it has various attractions and it is very fun!",
+            "placeImgUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlkOfGR4UQgFyF4o5_6-0CBBut6xdjyLr1lCo1lRgPGsidXSqBIZlWzk2F1f7hiEQpjD_ocP4qH5PuaD-JyJBwtg59o19Vh9IWxA62LT8SmPimuySA3pmdmDoi0aaEFBYREKGcL=s680-w680-h510-rw"
+        },
+        {
+            "placeName": "Curitiba Municipal Botanical Garden",
+            "placeDescription": "One of the most beautiful gardens in all of Brazil! If you love nature, you can't miss this one!",
+            "placeImgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn-EMz5tdFTwJFyBo51fn1XbT24oLpdO37Jk6U2wwtLA&s=10"
+        }
     ]}
 ];
 
