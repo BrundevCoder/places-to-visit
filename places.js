@@ -1,7 +1,7 @@
 const placesData = [
     {"country": "portugal", "placesArray": [
         {
-            "placeName": "Pena Paque Aventura",
+            "placeName": "Pena Parque Aventura",
             "placeDescription": "An adventure park in Ribeira da Pena, featuring the longest zip line in Europe and lots of other attractions!",
             "placeImgUrl": "https://www.penaaventura.com.pt/images/atividades/fantasticable/1270/DSC_3806_40pct.jpg"
         },
