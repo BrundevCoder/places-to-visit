@@ -23,6 +23,15 @@ function addPlaces(country) {
 
                 placesGridContainer.appendChild(placeDataDiv);
             }
+
+            if (countryData["placesArray"].length <= 5) {
+
+                let card = document.createElement("div");
+                card.innerText = "More Places Soon!";
+                card.classList.add("soon")
+
+                placesGridContainer.appendChild(card);
+            }
         }
 
     }

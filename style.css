@@ -90,6 +90,16 @@ main {
     font-size: .85rem;
 }
 
+.soon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-family: "Edu VIC WA NT Hand", sans-serif;
+    font-size: 1.35rem;
+    color: #494949 !important;
+}
+
 @media (max-width: 610px) {
     .places-grid {
         grid-template-columns: repeat(1, 1fr);
